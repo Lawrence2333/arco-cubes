@@ -1,6 +1,6 @@
 {
   "name": "arco-cubes-components",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha.1",
   "description": "Components for Arco Cubes",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
