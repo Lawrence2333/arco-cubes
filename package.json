@@ -15,8 +15,7 @@
     "build:all": "pnpm -r build",
     "build:packages": "pnpm -r --filter \"./packages/**\" build",
     "dev": "rollup -c -w",
-    "lint": "eslint src --ext .ts,.tsx",
-    "test": "jest"
+    "lint": "eslint src --ext .ts,.tsx"
   },
   "peerDependencies": {
     "react": "^18.0.0",
