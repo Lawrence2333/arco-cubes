@@ -1,6 +1,5 @@
 {
   "name": "arco-cubes",
-  "private": true,
   "version": "0.0.1-beta.1",
   "type": "module",
   "description": "Arco UI components and utilities library",
