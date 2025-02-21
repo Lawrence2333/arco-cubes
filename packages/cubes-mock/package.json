@@ -1,0 +1,27 @@
+{
+  "name": "arco-cubes-mock",
+  "version": "0.0.1",
+  "description": "Mock data for Arco Cubes",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "arco-cubes-types": "workspace:*"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3",
+    "rimraf": "^5.0.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+} 

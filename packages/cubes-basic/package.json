@@ -1,0 +1,38 @@
+{
+  "name": "arco-cubes-basic",
+  "version": "0.0.1",
+  "description": "Basic utilities for Arco Cubes",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "arco-cubes-types": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0",
+    "tailwindcss": "^3.0.0",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3",
+    "rimraf": "^5.0.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+} 
